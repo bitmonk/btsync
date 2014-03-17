@@ -22,7 +22,7 @@ default['btsync']['main_options']['lan_use_tcp'] = 'true'
 default['btsync']['main_options']['rate_limit_local_peers'] = 'false'
 default['btsync']['main_options']['sync_max_time_diff'] = '300'
 default['btsync']['main_options']['sync_trash_ttl'] = '30'
-default['btsync']['known_hosts'] = %w[127.0.0.1 10.91.34.191]
+default['btsync']['known_hosts'] = %w[127.0.0.1]
 default['btsync']['main_options']['disabled_webui'] = false
 # These are default values for all of your shared folders that are added through LWRP
 # You may still specify these manually through the LWRP but in general I have found
